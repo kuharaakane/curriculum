@@ -1,0 +1,25 @@
+package constants;
+
+
+/**
+ * フルーツの定数クラス
+ */
+public class FruitsConstants {
+
+    // フルーツ定数（種類）
+    public static final String FRUITS_APPLE_01 = "りんご";
+    public static final String FRUITS_GRAPE_02 = "ぶどう";
+    public static final String FRUITS_WATERMELON_03 = "スイカ";
+    public static final String FRUITS_LEMON_04 = "レモン";
+    public static final String FRUITS_MELON_05 = "メロン";
+    //static インスタンス化せずに利用できる。(インスタンス化するとエラーが) 
+    //final変更できないもの
+
+    // フルーツ定数（個数）
+    public static final Integer FRUITS_COUNT_10 = 10;
+    public static final Integer FRUITS_COUNT_20 = 20;
+    public static final Integer FRUITS_COUNT_45 = 45;
+    public static final Integer FRUITS_COUNT_78 = 78;
+    public static final Integer FRUITS_COUNT_100 = 100;
+
+}
