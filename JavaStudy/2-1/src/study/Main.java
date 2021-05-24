@@ -34,7 +34,8 @@ public class Main {
        //   要素が奇数の場合には「nは奇数です。」と出力されます。
        
        for(int i = 0; i < arr.length; i++ ) {
-       	isOdd(i);
+       	isOdd(arr[i]);
+       	//arr変数の中の添え字を選択。
        }
        
        	
