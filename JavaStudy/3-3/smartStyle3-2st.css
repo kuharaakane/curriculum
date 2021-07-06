@@ -1,0 +1,67 @@
+
+@media screen and (max-width: 479px) {
+
+    .wrapper {
+    width: 200px; 
+    margin: 0 auto; 
+    }
+
+   .header{
+    width: 200px;
+    height: 200px;
+    }
+
+    .sqareContainer{
+    width: 60px;
+    height: 160px;
+    background-color: white;
+    margin: 20px 70px;
+    }
+
+    .sqare1{
+    margin: 10px 10px 5px 10px;
+    }
+    /* sqareBox２*/
+    .sqare2{
+    margin: 5px 10px;
+    }
+    /* sqareBox３*/
+    .sqare3{
+   margin: 5px 10px 10px 10px;
+    }
+
+    .content{
+        /* width:100%; */
+        height:310px;
+        float: none;
+}
+
+  /* leftBox */
+  .leftBox{
+    width: 100%; 
+    height:100px;
+    float: none;
+    }
+
+    /* rightBox */
+
+ .rightBox{
+    width: 100%; 
+    height: 210px;
+    /* float: none;   */
+    }
+
+    .container{
+    width: 140px;
+    height: 170px;
+    margin :20px 30px 20px 30px ;
+    float: none;
+}
+
+.orangeBox{
+    width: 130px;
+}
+
+.footer{
+    height: 100px;
+}

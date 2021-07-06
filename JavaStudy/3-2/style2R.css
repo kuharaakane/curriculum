@@ -1,0 +1,89 @@
+/* setting */
+body {
+    min-height: 100%; 
+    height: 100%;
+}
+.clearfix::after { 
+    content: ''; 
+    display: block; 
+    clear: both;
+}
+/* keep max-width */
+.wrapper {
+    width: 400px; 
+    margin: 0 auto; 
+}
+/* header */
+.header{
+    width: 100%;
+    height: 100px;
+    background-color: #141f40;
+}
+/* header end  contents*/
+.contents{
+    height: 250px;
+}
+/*  contents end  left(1)*/
+.leftBox{
+    float: left;
+    height: 100%; 
+    width: 150px;
+    background-color: #80bfa8;
+}
+/* left(1) end  rightBox(2~5)*/
+.rightBox{
+    float: right; 
+    width: 250px;
+    /* height: 100%; */
+}
+/* right-apperBox(2~4) */
+
+.right-apperBox{
+    float: left;
+    height: 150px;
+    /* width: 100%; */
+}
+/* righ(2) */
+.in_right{
+    float: right;
+    width: 100px;
+    height: 100%; 
+    background-color: #ff9e6b;
+}
+/* righ(2) end  left(3~4)*/
+.in_leftBox{
+    float: left;
+    width: 150px;
+    height: 100%;
+}
+/* left(3) */
+.left-apper{
+    width: 100%;
+    height: 50px;
+    background-color: #dbd400;
+}
+/* left(4) */
+.left-lower{
+    width: 100%;
+    height: 100px;
+    background-color: #0093b7;
+}
+/* left(3~4) end hooter5 */
+.right-lowerBox{
+    float: left;
+    width: 250px;
+    height: 100px;
+    background-color: #8c2727;
+}
+/* left(3~4) end hooter */
+.footer{
+    height: 100px;
+    width: 400px;
+    background-color: #b98b30;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
