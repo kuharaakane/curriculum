@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="jp">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTMLフォームの記述</title>
+    <!-- <link rel=" " href=" "> -->
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="header">
+
+        </div>
+        
+        <div class="contents">
+
+            <table>
+                <tr>
+                     <td><label for="name">お名前</label> </td>
+                     <td><input type="text" name="name" size="30" maxlength="20" id="name"></td>
+                     <!-- size属性 ：テキストボックスの表示サイズを指定します。
+                      maxlength属性 ：入力できる最大文字数を指定します。 -->
+                </tr>
+                <tr>
+                    <td><label for="備考">備考:</label> </td>
+                    <td><textarea id="備考"></textarea></td>
+                    <!-- 2行以上文のテキスト入力欄を作成します。 -->
+                </tr>
+                <tr>
+                    <td><label for="pass">pass:</label> </td>
+                   <td><input type="password" name="pass" size="10" maxlength="8" id="pass"></td>
+                   <!-- パスワード入力欄入力したテキストがアスタリスク（*）などに置き換えて表示されます。 -->
+                </tr>
+            </table>
+
+
+            <p>言語を選択：
+            <input type="checkbox" name="language" value="html" checked="checked" disabled="disabled" > HTML
+            <input type="checkbox" name="language" value="css" checked="checked"> CSS
+            <input type="checkbox" name="language" value="php"> PHP
+            <input type="checkbox" name="language" value="java"> Java
+           </p>
+            <!-- チェックボックス複数選択可能なチェックボックスを作成します。
+            hecked属性 を指定すると、その項目についてはあらかじめチェックの付いた状態となります。
+            disabled属性を指定した要素を無効化。要素が無効化されると、ボタンは押せなくなり、テキストは入力できなくなり、
+            選択ボックスは選択できなくなります。 -->
+
+            <p>性別：
+            <input type="radio" name="sex" value="m"> MEN
+            <input type="radio" name="sex" value="w"> WOMEN
+            <input type="radio" name="sex" value="o"> OTHER   
+            </p>
+            <!-- ラジオボタン。1つしか選択できないラジオボタンを作成します。
+            ラジオボタンも checked属性 を指定すると、その項目についてはあらかじめチェックの付いた状態となります。 -->
+
+            <div></div>
+
+            <p>ファイルをアップしてください：<input type="file" name="fileup" value="1"></p>
+            <!-- ファイル送信（アップロード）サーバーへファイルを送信するための、ファイル名の入力欄と[参照]ボタンを作成します。 -->
+
+
+            <p><input type="button" value="凡用ボタン" onClick="alert('ボタン1がクリックされました。');"></p>
+            <!-- 汎用ボタン.用途に合わせて使える汎用ボタンを作成します。JavaScript等とあわせて、
+            ボタン押下時にブラウザ上でさまざまな処理を行います。 -->
+
+
+            <p><input type="image" src="./img/search_btn.gif" alt="画像ボタン"></p>
+            <!-- 画像ボタン
+            画像をクリックできるボタンをつくります。使用する画像ファイルは src属性 で指定します。
+            alt属性 が必須となります。また、 alt属性 は画像が表示されなかった際の代替テキストになります。 -->
+
+
+            <form>
+                <label for="name">お名前</label> 
+                <input type="text" name="name" size="30" maxlength="20" id="name">
+                <p><input type="reset" value="reset">
+                    <input type="submit" value="送信する">
+                    <input type="submit" value="save">
+                </p>
+            </form>
+
+        </div>
+        <div class="footer">
+
+        </div>
+    </div>
+</body>
+</html>

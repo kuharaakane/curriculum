@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<!-- html宣言・css読み込み -->
+<html>
+<head>
+<meta charset="UTF-8">
+<title>社員情報システム</title>
+<link rel="stylesheet"type="text/css" href="./css/index.css">
+</head>
+<body>
+ <form action="/Check4/search" method="post">
+ <!-- action　コントローラーを探す　 -->
+ <div class="wrapper">
+ <div class="header">社員情報システム</div>
+ <ul>
+ <!-- ID入力欄 -->
+ <li class="id">
+ <label for="id">ID</label>
+ <input type="text" name="id" value="" size="20">
+ <!-- 入力された内容に　name=***の名前をつけてる -->
+ </li>
+ <!-- パスワードを入力する欄を作成してください -->
+ <li class="pass">
+ <label for="id">PassWord</label>
+ <input type="password" name="pass" value="" size="20" >
+
+ <!-- 検索ボタン -->
+ <li><input id="button" type="submit" name="button" value="検索">
+ </li>
+ </ul>
+ <div class="footer">hoge.inc</div>
+ </div>
+ </form>
+</body>
+</html>
