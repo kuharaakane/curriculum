@@ -25,16 +25,13 @@ public class Curriculum {
         System.out.println("要素数の先頭は0からだよ" + animar[0]);
         System.out.println(animar[1] + "+" +  animar[2]);
 
-        String[] animar1 = new String[1];
         animar[0] = "mikeneko";
         System.out.println("要素数は0からカウントだけど配列の番号は一からカウントだよ。0_neko = " + animar[0] + "   ネコにミケネコで代入してるからミケネコで表示されるよ。");
         System.out.println("0_neko = " + animar[0]);
 
 
-        String[] animar3 = new String[3];
         animar[2] = "inko";
 
-        String[] animar4 = new String[4];
         animar[3] = "itachi";
         System.out.println( animar[2] + "+" +  animar[3] + "変数や配列どうしも連結できるよ");
 

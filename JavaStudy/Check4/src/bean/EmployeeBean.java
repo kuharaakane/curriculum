@@ -11,7 +11,7 @@ public class EmployeeBean {
     public void setId(String Id) {
         this.Id = Id;
     }
-    public String Id() {
+    public String getId() {
         return Id;
     }
     public void setPassWord(String PassWord) {

@@ -120,7 +120,7 @@ public class EmployeeService {
  }
  if (connection != null) {
  connection.close();
- }
+ } 
 
  } catch (SQLException e) {
  e.printStackTrace();
